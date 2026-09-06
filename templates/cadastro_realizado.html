@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro realizado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Cadastro realizado com sucesso!</h1>
+
+    <div class="resultado">
+        <p><strong>Nome:</strong> {{ nome }}</p>
+        <p><strong>CPF:</strong> {{ cpf }}</p>
+    </div>
+
+    <a href="{{ url_for('home') }}">Voltar para o início</a>
+</body>
+</html>

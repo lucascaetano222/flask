@@ -8,3 +8,20 @@ body {
 h1 {
     color: #2c3e50;
 }
+
+.campo {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input {
+    display: block;
+    width: 250px;
+    padding: 8px;
+}
